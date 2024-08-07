@@ -71,8 +71,8 @@ def process_json_file(filepath, output_filepath):
     save_cleaned_content(cleaned_data, output_filepath)
 
 # Example usage
-input_file = 'crawled/category_australia_immigration-australia_studying-in-australia.json'
-output_file = 'cleaned/cleaned_studying-in-australia.json'
+input_file = 'crawled/category_ukraine_immigration-ukraine_studying-in-ukraine.json'
+output_file = 'cleaned/cleaned_ukraine_studying-in-ukraine.json'
 
 # Ensure the directory for the output file exists
 output_directory = os.path.dirname(output_file)
